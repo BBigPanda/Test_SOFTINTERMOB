@@ -1,0 +1,55 @@
+.buttonUpgrade {
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=bee876fa50f004cba9dbf2c3b1e3868b&type=3#NotInter-Regular");
+    -unity-text-align: middle-center;
+    left: auto;
+    bottom: auto;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-font-style: bold;
+    border-left-color: rgb(64, 178, 0);
+    border-right-color: rgb(64, 178, 0);
+    border-top-color: rgb(64, 178, 0);
+    border-bottom-color: rgb(64, 178, 0);
+    margin-top: 30%;
+    height: 20%;
+    font-size: 24px;
+}
+
+.panelHeroUpgrade {
+    position: absolute;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.28);
+    right: auto;
+    top: auto;
+    bottom: 10px;
+    width: auto;
+    height: auto;
+    min-width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    min-height: 400px;
+    max-width: 900px;
+    max-height: 1200px;
+    display: flex;
+    opacity: 1;
+}
+
+.labelHero {
+    background-color: rgba(255, 216, 0, 0.71);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-text-align: middle-left;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    -unity-font-style: bold-and-italic;
+    font-size: 18px;
+    height: 15%;
+}
