@@ -1,9 +1,9 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Scripts/UI/UIUSS.uss?fileID=7433441132597879392&amp;guid=16257c60875244e659aaee7492aa8d39&amp;type=3#UIUSS" />
     <ui:VisualElement name="_panel" data-source-path="_panel" class="panelHeroUpgrade" style="flex-grow: 1;">
-        <ui:Label text="Health" class="labelHero" />
-        <ui:Label text="Mana" class="labelHero" />
-        <ui:Label text="Power" class="labelHero" />
-        <ui:Button text="Upgrade" class="buttonUpgrade" style="color: rgb(28, 173, 1);" />
+        <ui:Label text="Health" name="_health" class="labelHero" />
+        <ui:Label text="Mana" name="_mana" class="labelHero" />
+        <ui:Label text="Power" name="_power" class="labelHero" />
+        <ui:Button text="Upgrade" name="_buttonUpgrade" class="buttonUpgrade" style="color: rgb(28, 173, 1);" />
     </ui:VisualElement>
 </ui:UXML>
